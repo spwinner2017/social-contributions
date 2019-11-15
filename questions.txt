@@ -1,0 +1,93 @@
+JavaScript event bubbling/capturing
+ Event bulling and capturing is an event propagation systems .in event bubbling event is first handled at inner element and then it propagated to outer element.
+ Event capturing: Event is handled at outer elements first then pass to inner element.
+Closure:
+ If you define nested function then inner function can access the outer function parameter using closer.
+Arrow function vs normal function
+ Normal function have own this, but arrow function don’t have this.
+New in es6
+ -classes, import & export, let const, default parameter, arrow function,
+Variable hoisting:
+ -use variable before declaration. JavaScript will move all declaration at top while execution.
+Var and let difference
+ - Local scope, block scope,
+ - support variable hosting, not support variables hosting;
+ - Var can be redeclarated, but not let.
+ - Let does not create a property on the global object but var do.
+Typescript 
+ - Interface define syntax which any entity must adhere to.
+ - Interface define property, methods, events
+ - All methods in interface must have to define in class.
+Interface in typescript
+Variable declaration
+
+Angular 
+Angular lifecycle
+ ngOnChnage();
+ ngOnInit(),
+animation
+Data binding
+ -attribute binding
+ -event binding
+ -Two way data binding.
+Method of http
+ get, post
+-httpclint module is required for handling http request in angular.
+ .post,get,delete,put(fully replace value of resources),patch(update the single method)
+Use of browser and common modules
+- Browser module provide environment for running angular applications, and common module provide a common features of angular like ngIf and other.
+How angular application run
+-install npm,angular,cli,ng start,npm run build.
+Use of main.ts file 
+-main.ts is entry point of angular application its bootstrap the application and load all necessary thing for running 
+ Angular application.
+
+Project structure
+cmd for create component and service 
+-ng g c componnetname,ng generate service servicename
+Angular building blocks.
+
+ngmodule in angular 
+-NgModule and contains an object which has declarations, import s, providers and bootstrap.
+ (place where we can group componnets,directives,services of angular application). 
+component.ts file structure
+- import sections,@component annotations,selector,TemplateUrl,styleUrls,export componnet name.
+use of shared componnets.
+lazy loading in angualr and benifit
+pure functions:
+a fucntion retuns same outout when if yoy pass same
+routing in angular
+pure and impure pipe 
+-pipes takes input and transfrom in desired out.
+  pipe have two type.pure pipe and impure pipe.
+    1)pure pipe :
+     onley called when angular change detection detect changes in passed paramter.
+      @pipe({name:'test',pure:true});
+    2)Impure Pipe:called for every change detection cycle no matter wheater the value parameter is changed or not.
+
+what is directive and pipe
+- diretive allows to you add behavior to dom elelments.this behavor might be simple ot complex.
+ directives have various types like
+  1)structurial directives
+  2)behavoir directives.
+dependence injection.
+
+html
+semantic element
+web workers
+video and audio tag
+inline and inline block property
+box model
+positions in css
+flex property,box shadow,transform,and translate property.
+animation using css
+new property in css
+
+how to use bootstrap in angualr 
+some classes in bootstrap
+grid in bootstrap
+responsive classes in boootstrap.
+
+Angular building blocks
+-moudles,component,template,metadata,databinding,directive,service,dependenceinjection.
+ Html5 new API: Geo location, Localstorage, Drag and drop, Web workers, Application cache, Server sent events.
